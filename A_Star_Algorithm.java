@@ -29,7 +29,7 @@ public class A_Star_Algorithm{
 
     final char obs = 'X';
 
-    public is18227023() {
+    public A_Star_Algorithm() {
         mat = new char[8][8];
         scan = new Scanner(System.in);
         open = new ArrayList<>(); // Step 4
@@ -172,7 +172,7 @@ public class A_Star_Algorithm{
     }
 
     public static void main(String args[]) {
-        is18227023 i = new is18227023();
+        A_Star_Algorithm i = new A_Star_Algorithm();
         i.run();
 
     }
